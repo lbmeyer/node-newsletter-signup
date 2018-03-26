@@ -1,0 +1,78 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, .5);
+    color: rgb(66, 69, 86);
+    height: 100%;
+    background-image: url('http://i.imgur.com/BJP2Q1j.jpg');
+    background-size: cover;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0 0 2rem 0;
+    font-size: 18rem;
+    font-weight: 100;
+}
+
+p {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.form--main {
+    margin-top: 3rem;
+}
+
+.form--field {
+    line-height: 1.5;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    background: transparent;
+    width: 18rem;
+    font-size: 1.6rem;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 1rem 1rem 0;
+    font-weight: 300;
+}
+
+.btn--join {
+    font-size: 1.6em;
+    color: rgb(66,69,86);
+    padding: 10px 30px;
+    background: rgba(255,255,255,.8);
+    transition: .2s all ease-in;
+    line-height: 1.2;
+    border: none;
+}
+
+.btn--join:hover {
+    cursor: pointer;
+    background-color: tomato;
+    opacity: .8;
+    color: white;
+    border: none;
+    
+}
+
+input[type=text]:focus {
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: rgba(255,255,255,.8);
+}
